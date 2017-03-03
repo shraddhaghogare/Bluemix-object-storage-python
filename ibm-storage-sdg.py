@@ -62,13 +62,13 @@ def decrypt(in_file, out_file, password, key_length=32):
 #    statusbar.config(text = open.show())
 
 # Credentials from runtime
-auth_url= "https://identity.open.softlayer.com"
-project_id= "a5dba2716aee48aebb66d262ac36ede8"
-region= "dallas"
-user_id= "32fd8435f263490b82eda30fbca9237c"
-username= "admin_84fdd126c72259aa414bf9fc4315fdc4b21d294b",
-password= "F-bseikk2Vb,4}z8"
-container="Disk"
+auth_url= "url"
+project_id= "project_id"
+region= "region"
+user_id= "user_id"
+username= "username",
+password= "password"
+container="container"
 
 # to establish a connection (OAuth)
 conn = swiftclient.Connection(
